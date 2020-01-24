@@ -22,7 +22,7 @@ public class HomeScreen extends base {
         AndroidDriver<AndroidElement> driver = capabilities();
         Utils.sleep (2);
         takeScreenShot(ImageName, driver);
-        driver.findElementByXPath("(//android.widget.FrameLayout)[1]").click();
+        driver.findElementByXPath("(//android.widget.FrameLayout)[1]").click(); Utils.sleep (2);
         driver.findElementByClassName("android.widget.ImageButton").click();
         takeScreenShot(ImageName2, driver);
     }
