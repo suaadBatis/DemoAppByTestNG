@@ -2,7 +2,7 @@
 .idea/workspace.xml
 .idea/
 
- # Ignore Gradle GUI config
+#Ignore Gradle GUI config
 .gradle/
 .gradletasknamecache
 !gradle-wrapper.jar

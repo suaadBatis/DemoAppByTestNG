@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test name="AppDemoByTestNG">
+    <classes>
+      <class name="com.test.HomeScreen"/>
+      <class name="Services.ServerRunner"/>
+    </classes>
+  </test> <!-- AppDemoByTestNG -->
+  <test name="AppDemoByTestNG2">
+    <classes>
+      <class name="com.test.ScrollingList"/>
+    </classes>
+  </test> <!-- AppDemoByTestNG -->
+</suite> <!-- Default Suite -->
