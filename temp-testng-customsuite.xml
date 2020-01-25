@@ -9,7 +9,9 @@
   </test> <!-- AppDemoByTestNG -->
   <test name="AppDemoByTestNG2">
     <classes>
-      <class name="com.test.ScrollingList"/>
+      <class name="com.test.ScrollingList">
+         <methods> <include name="ListOfMoviesByYear" /></methods>
+      </class>
     </classes>
   </test> <!-- AppDemoByTestNG -->
 </suite> <!-- Default Suite -->
