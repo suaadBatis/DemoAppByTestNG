@@ -1,5 +1,13 @@
-2020-01-24 23:37:33:347 [Appium] Welcome to Appium v1.15.1
-2020-01-24 23:37:33:349 [Appium] Non-default server args:
-2020-01-24 23:37:33:349 [Appium]   logFile: /Users/suaadbatis/Documents/GitHub/AppDemoByTestNG/src/test/resources/Logs/HomeScreen.log
-2020-01-24 23:37:33:349 [Appium]   localTimezone: true
-2020-01-24 23:37:33:369 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
+2020-02-22 13:07:56:296 [Appium] Welcome to Appium v1.15.1
+2020-02-22 13:07:56:297 [Appium] Non-default server args:
+2020-02-22 13:07:56:298 [Appium]   address: 127.0.0.1
+2020-02-22 13:07:56:298 [Appium]   port: 5834
+2020-02-22 13:07:56:298 [Appium]   logFile: /Users/suaadbatis/Documents/GitHub/AppDemoByTestNG/src/test/resources/Logs/HomeScreen.log
+2020-02-22 13:07:56:298 [Appium]   localTimezone: true
+2020-02-22 13:07:56:324 [Appium] Appium REST http interface listener started on 127.0.0.1:5834
+2020-02-22 13:07:56:582 [HTTP] --> GET /wd/hub/status
+2020-02-22 13:07:56:582 [HTTP] {}
+2020-02-22 13:07:56:584 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-02-22 13:07:56:585 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.15.1"}}
+2020-02-22 13:07:56:589 [HTTP] <-- GET /wd/hub/status 200 5 ms - 68
+2020-02-22 13:07:56:590 [HTTP] 
