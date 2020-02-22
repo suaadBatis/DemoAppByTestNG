@@ -17,6 +17,7 @@ public class ServerRunner {
                 new AppiumServiceBuilder ().usingDriverExecutable(new File ("/usr/local/bin/node"))
                         .withAppiumJS(new File("/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/main.js"))
                         .withArgument(GeneralServerFlag.LOCAL_TIMEZONE)
+                        .withIPAddress("127.0.0.1").usingAnyFreePort()
                         .withLogFile(new File (System.getProperty("user.dir")+"/src/test/resources/Logs/"+Logsname)));
         service.start();
 

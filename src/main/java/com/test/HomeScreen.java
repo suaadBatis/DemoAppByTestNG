@@ -2,11 +2,11 @@ package com.test;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.Test;
 import utils.Utils;
 
 import java.io.IOException;
-import java.net.MalformedURLException;
 
 import static Services.ScreenShot.takeScreenShot;
 import static Services.ServerRunner.ServerRunners;
@@ -34,17 +34,12 @@ public class HomeScreen extends base {
          driver.findElementsByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Ant-Man and the Wasp\"));");
          driver.findElementByXPath ( "(//android.widget.FrameLayout)[2]").click ();
          Utils.sleep (2);
+
      }
-     @Test
-    public void Stop() throws MalformedURLException {
-         AndroidDriver<AndroidElement> driver = capabilities ();Utils.sleep(2);
-         driver.quit ();
-     }
-
-
-
-
-
+    @AfterClass
+    public  void Quit(){
+        driver.quit ();
+    }
 
 }
 
