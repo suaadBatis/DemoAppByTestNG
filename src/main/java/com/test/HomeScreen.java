@@ -1,5 +1,6 @@
 package com.test;
 
+import PageObjects.HomePage;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
 import org.testng.annotations.AfterClass;
@@ -15,24 +16,28 @@ public class HomeScreen extends base {
 
     @Test
     public  void HomeList ()throws IOException {
+
         String LogsName = "HomeScreen.log";
         String ImageName = "list";
         String ImageName2 = "lastimge";
         ServerRunners ( LogsName );
         AndroidDriver<AndroidElement> driver = capabilities();
+        HomePage homeObject =  new  HomePage (driver); // add PageObject here
         Utils.sleep (2);
         takeScreenShot(ImageName, driver);
-        driver.findElementByXPath("(//android.widget.FrameLayout)[1]").click(); Utils.sleep (2);
-        driver.findElementByClassName("android.widget.ImageButton").click();
+        homeObject.HomeList1.click ();Utils.sleep (2);
+        homeObject.HomeList2.click ();
         takeScreenShot(ImageName2, driver);
     }
      @Test
     public  void HomeScrolling () throws IOException {
+
          String LogsName = "ScrollingList.log";
          ServerRunners(LogsName);
          AndroidDriver<AndroidElement> driver = capabilities ();Utils.sleep(2);
-         driver.findElementsByAndroidUIAutomator("new UiScrollable(new UiSelector()).scrollIntoView(text(\"Ant-Man and the Wasp\"));");
-         driver.findElementByXPath ( "(//android.widget.FrameLayout)[2]").click ();
+         HomePage homeObject =  new  HomePage (driver);
+         homeObject.HomeList3.click ();
+         homeObject.HomeList4.click ();
          Utils.sleep (2);
 
      }
