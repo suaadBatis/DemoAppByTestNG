@@ -1,13 +1,13 @@
-2020-02-22 13:08:16:505 [Appium] Welcome to Appium v1.15.1
-2020-02-22 13:08:16:506 [Appium] Non-default server args:
-2020-02-22 13:08:16:507 [Appium]   address: 127.0.0.1
-2020-02-22 13:08:16:507 [Appium]   port: 48624
-2020-02-22 13:08:16:507 [Appium]   logFile: /Users/suaadbatis/Documents/GitHub/AppDemoByTestNG/src/test/resources/Logs/ScrollingList.log
-2020-02-22 13:08:16:507 [Appium]   localTimezone: true
-2020-02-22 13:08:16:569 [Appium] Appium REST http interface listener started on 127.0.0.1:48624
-2020-02-22 13:08:16:719 [HTTP] --> GET /wd/hub/status
-2020-02-22 13:08:16:719 [HTTP] {}
-2020-02-22 13:08:16:722 [GENERIC] Calling AppiumDriver.getStatus() with args: []
-2020-02-22 13:08:16:723 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.15.1"}}
-2020-02-22 13:08:16:727 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
-2020-02-22 13:08:16:727 [HTTP] 
+2020-02-22 20:13:01:982 [Appium] Welcome to Appium v1.15.1
+2020-02-22 20:13:01:983 [Appium] Non-default server args:
+2020-02-22 20:13:01:984 [Appium]   address: 127.0.0.1
+2020-02-22 20:13:01:984 [Appium]   port: 36971
+2020-02-22 20:13:01:984 [Appium]   logFile: /Users/suaadbatis/Documents/GitHub/AppDemoByTestNG/src/test/resources/Logs/ScrollingList.log
+2020-02-22 20:13:01:984 [Appium]   localTimezone: true
+2020-02-22 20:13:02:010 [Appium] Appium REST http interface listener started on 127.0.0.1:36971
+2020-02-22 20:13:02:223 [HTTP] --> GET /wd/hub/status
+2020-02-22 20:13:02:223 [HTTP] {}
+2020-02-22 20:13:02:227 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-02-22 20:13:02:228 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.15.1"}}
+2020-02-22 20:13:02:232 [HTTP] <-- GET /wd/hub/status 200 8 ms - 68
+2020-02-22 20:13:02:232 [HTTP] 
